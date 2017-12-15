@@ -7,7 +7,7 @@ resource "google_compute_network" "default" {
   name                    = ""
   auto_create_subnetworks = "false"
 }
-#Definition du sous-reseau à partir du reseau cree
+#Definition du sous-reseau à partir du reseau creer
 
 resource "google_compute_subnetwork" "subnet1" {
   name          = "sousreseau"
