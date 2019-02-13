@@ -1,5 +1,6 @@
 provider "google" {
   region      = "${var.region}"
+# test
 }
 #Definition du reseau
 
